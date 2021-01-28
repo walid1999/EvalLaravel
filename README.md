@@ -13,13 +13,13 @@ Répartition des tâches :
 Walid :
 - initialisation bdd
 - CSS
-- connexion
-- utilisateur
+- connexion (intialisation)
+- utilisateur (page suivi non finie)
 
 Elodie :
 - inscription 
-- connexion
-- début suivi (many to many)
+- connexion (intialisation + modif)
+- début suivi (many to many) [non complet]
 - utilisateur
 
 Outils de travail :
