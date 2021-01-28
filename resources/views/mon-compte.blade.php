@@ -2,7 +2,7 @@
 
 @section('content')
     
-    <div class="carousel-inner">
+    <div style="text-align: center">
         <h1>Mon compte</h1>
 
         <p>Vous êtes bien connecté.</p>

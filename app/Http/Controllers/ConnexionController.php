@@ -25,7 +25,7 @@ class ConnexionController extends Controller
         ]);
 
         if ($resultat) {
-           
+            
             return redirect('/mon-compte');
         }
 

@@ -2,11 +2,14 @@
 
 @section('content')
     <h1>Utilisateurs</h1>
-    <ul>
+    <section>
+    <ul >
         @foreach($utilisateurs as $utilisateur)
         <li> 
-        <a href="/{{ $utilisateur->email}}">{{ $utilisateur->email }}</a>
+        <a href="/{{ $utilisateur->email}}">{{ $utilisateur->email }}<br/></a>
+        
         </li>
         @endforeach
     </ul>
+    </section>
 @endsection
