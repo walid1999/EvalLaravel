@@ -13,12 +13,14 @@ Répartition des tâches :
 Walid :
 - initialisation bdd
 - CSS
--
+- connexion
+- utilisateur
 
 Elodie :
-- système inscription et connexion
--
--
+- inscription 
+- connexion
+- début suivi (many to many)
+- utilisateur
 
 Outils de travail :
 - Visual Studio Code

@@ -29,8 +29,13 @@ Route::post('/connexion', 'App\Http\Controllers\ConnexionController@traitement')
 
 Route::get('/utilisateurs', 'App\Http\Controllers\UtilisateursController@liste');
 
-Route::get ('/mon-compte', 'App\Http\Controllers\CompteController@accueil');
+Route::get('/mon-compte', 'App\Http\Controllers\CompteController@accueil');
 Route::get('/deconnexion', 'App\Http\Controllers\CompteController@deconnexion');
+
 Route::post('/modification-mot-de-passe', 'App\Http\Controllers\CompteController@modificationPseudo');
 Route::post('/modification-mot-de-passe', 'App\Http\Controllers\CompteController@modificationEmail');
 Route::post('/modification-mot-de-passe', 'App\Http\Controllers\CompteController@modificationMotDePasse');
+
+Route::post('{email}/suivis', 'SuivisController@nouveau');
+
+Route::get('/{email}', 'UtilisateursController@voir');

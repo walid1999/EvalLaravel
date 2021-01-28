@@ -15,5 +15,15 @@ class UtilisateursController extends Controller
         ]);
     }
 
+    public function voir()
+    {
+        $email = request('email');
+
+        $utilisateur = Utilisateur::where('email', $email)->first();
+
+        return view('utilisateur', [
+            'utilisateur' => $utilisateur,
+        ]);
+    }
 
 }
