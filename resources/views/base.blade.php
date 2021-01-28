@@ -13,8 +13,8 @@
 <body>
 
 @include('header')
-
 @include('flash::message')
+
 
 @yield('content')
 
