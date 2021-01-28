@@ -20,7 +20,7 @@
 				<li>
                  	<a class="connexion" href="connexion"  >
 					 	Connexion
-				 		<i class="fas fa-sign-in-alt"></i>
+				 	<i class="fas fa-sign-in-alt"></i>
                  	</a> 
 				</li>
             </ul>
