@@ -7,21 +7,41 @@
 				<li>
 					<a href="home">Accueil</a>
                 </li>
+<<<<<<< Updated upstream
 				<li>
                  	<a class="utilisateurs" href="utilisateurs"  >
 					 	Utilisateurs
                  	</a> 
 				</li>
+=======
+            </ul>           
+        </nav>
+            <ul>
+               
+                @if(auth()->check()) 
+                <li>
+                 	<a class="connexion" href="{{url('/mon-compte')}}"  >
+					 	Mon compte
+                 	</a> 
+				</li>
+                @else
+>>>>>>> Stashed changes
 				<li>
-                 	<a class="inscription" href="inscription"  >
+                 	<a class="connexion" href="{{url('/inscription')}}"  >
 					 	S'inscrire
                  	</a> 
 				</li>
+
 				<li>
-                 	<a class="connexion" href="connexion"  >
+                 	<a class="connexion" href="{{url('/connexion')}}"  >
 					 	Connexion
 				 	<i class="fas fa-sign-in-alt"></i>
                  	</a> 
 				</li>
+                @endif
             </ul>
 	</header>
+
+    
+   
+       
