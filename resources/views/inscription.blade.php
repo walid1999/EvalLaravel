@@ -3,7 +3,9 @@
 @section('content')
 
   
-    <form action="/inscription" method="post">
+<h1 style="text-align: center">Inscription</h1>
+<section class="contact-form">
+    <form class="form-group" action="/inscription" method="post">
         {{ csrf_field() }}
 
         
@@ -27,5 +29,5 @@
         <p><input type="submit" value="M'inscrire"></p>
 
     </form>
-
+    </section>
 @endsection

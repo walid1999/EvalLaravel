@@ -2,9 +2,10 @@
 
 @section('content')
 
-    
+<h1 style="text-align: center">Connexion</h1>
+<section class="contact-form">
 
-    <form action="/connexion" method="post">
+    <form class="form-group" action="/connexion" method="post">
         {{ csrf_field() }}
 
         <p><input type="email" name="email" placeholder="Email" value="{{ old('email') }}"></p>
@@ -20,5 +21,5 @@
         <p><input type="submit" value="Se connecter"></p>
 
     </form>
-
+</section>
 @endsection
