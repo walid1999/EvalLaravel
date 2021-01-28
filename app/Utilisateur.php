@@ -11,12 +11,12 @@ class Utilisateur extends Model implements Authenticatable
 
     use BasicAuthenticatable;
 
-    protected $fillable = ['email', 'password'];
+    protected $fillable = ['pseudo', 'email', 'mot_de_passe'];
 
     public function getAuthPassword()
 
     {
-        return $this->password;
+        return $this->mot_de_passe;
     }
 
     public function getRememberTokenName()

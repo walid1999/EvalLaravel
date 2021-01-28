@@ -29,5 +29,5 @@
         <p><input type="submit" value="M'inscrire"></p>
 
     </form>
-    </section>
+</section>
 @endsection

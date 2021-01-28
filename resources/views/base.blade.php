@@ -14,6 +14,8 @@
 
 @include('header')
 
+@include('flash::message')
+
 @yield('content')
 
 @include('footer')
