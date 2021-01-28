@@ -7,13 +7,11 @@
 				<li>
 					<a href="home">Accueil</a>
                 </li>
-<<<<<<< Updated upstream
 				<li>
                  	<a class="utilisateurs" href="utilisateurs"  >
 					 	Utilisateurs
                  	</a> 
 				</li>
-=======
             </ul>           
         </nav>
             <ul>
@@ -25,7 +23,6 @@
                  	</a> 
 				</li>
                 @else
->>>>>>> Stashed changes
 				<li>
                  	<a class="connexion" href="{{url('/inscription')}}"  >
 					 	S'inscrire
