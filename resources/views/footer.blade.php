@@ -4,6 +4,6 @@
 
 	
 	<footer>
-            <div class="contenu">Copyright ESL CREW</div>
+        <div class="contenu">Copyright W/E</div>
 	</footer>
 	

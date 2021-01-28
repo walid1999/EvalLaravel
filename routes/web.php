@@ -27,6 +27,8 @@ Route::post('/inscription', 'App\Http\Controllers\InscriptionController@traiteme
 Route::get('/connexion', 'App\Http\Controllers\ConnexionController@formulaire');
 Route::post('/connexion', 'App\Http\Controllers\ConnexionController@traitement');
 
+Route::get('/utilisateurs', 'App\Http\Controllers\UtilisateursController@liste');
+
 Route::get ('/mon-compte', 'App\Http\Controllers\CompteController@accueil');
 Route::get('/deconnexion', 'App\Http\Controllers\CompteController@deconnexion');
 Route::post('/modification-mot-de-passe', 'App\Http\Controllers\CompteController@modificationPseudo');

@@ -1,20 +1,20 @@
 <div class="contenu">
     <header >
 
-		<h2>ESL CREW</h2>
-        
-		<nav>
-			<ul>
+		<h2>W/E</h2>
+
+            <ul>
 				<li>
 					<a href="home">Accueil</a>
                 </li>
-            </ul>           
-        </nav>
-            <ul>
+				<li>
+                 	<a class="utilisateurs" href="utilisateurs"  >
+					 	Utilisateurs
+                 	</a> 
+				</li>
 				<li>
                  	<a class="inscription" href="inscription"  >
 					 	S'inscrire
-				 		<i class="fas fa-sign-in-alt"></i>
                  	</a> 
 				</li>
 				<li>
